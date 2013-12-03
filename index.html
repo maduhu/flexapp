@@ -254,30 +254,30 @@
 		
 		<!-- CONTACT FORM -->
 		<div class="span7" id="contact-form">
-			<form class="form-horizontal">
+			<form class="form-horizontal" action="sendsupportemail.php" method="post">
 				<fieldset>
 					<div class="control-group">
 						<label class="control-label" for="name">Name</label>
 						<div class="controls">
-							<input class="input-xlarge" type="text" id="name" placeholder="John Doe">
+							<input class="input-xlarge" type="text" id="name" name="name" placeholder="John Doe">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="email">Email</label>
 						<div class="controls">
-							<input class="input-xlarge" type="text" id="email" placeholder="john@gmail.com">
+							<input class="input-xlarge" type="text" id="email" name="email" placeholder="john@gmail.com">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="subject">Subject</label>
 						<div class="controls">
-							<input class="input-xlarge" type="text" id="subject" placeholder="General Inquiry">
+							<input class="input-xlarge" type="text" id="subject" name="subject" placeholder="General Inquiry">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="message">Message</label>
 						<div class="controls">
-							<textarea class="input-xlarge" rows="3" id="message" placeholder="Your message..."></textarea>
+							<textarea class="input-xlarge" rows="3" id="feedback" name="feedback" placeholder="Your message..."></textarea>
 						</div>
 					</div>
 					<div class="form-actions">
