@@ -31,7 +31,7 @@ if(isset($_POST['email']) && isset($_POST['feedback'])) {
 	  	exit;
 	}
 
-	echo "Thank you. Your message has been sent. We read all messages aim to respond within 2 working days";
+	echo "Thank you. Your message has been sent. We read all messages and aim to respond within 2 working days";
 	exit;
 }
 
